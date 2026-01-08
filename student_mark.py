@@ -7,9 +7,9 @@ marks = np.array([
 ])
 # Display marks of Hari
 print(marks[1])
-#display Maths mark of hari
+#Display Maths mark of Hari
 print(marks[1,0])
-#display all students marks of Malayalam
+#Display all students marks of Malayalam
 print(marks[:,2])
 # Display Malayalam and CS marks of all students
 print(marks[:,2:4])
