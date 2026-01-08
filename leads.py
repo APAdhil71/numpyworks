@@ -15,6 +15,14 @@ leads = np.array([
 # #task 2 total leads from each source
 # print(np.sum(leads,axis=1))
 # task 3 highest lead day
-daywise_total=np.sum(leads,axis=0)
-max_total=np.max(daywise_total)
-print(np.argmax(daywise_total))
+# daywise_total=np.sum(leads,axis=0)
+# max_total=np.max(daywise_total)
+# print(np.argmax(daywise_total))
+# task 4 average leads per source
+# print(np.average(leads,axis=1))
+# # task 5 average leads per day
+# print(np.average(leads,axis=0))
+# task 6 highest lead  source
+source_wise_total=np.sum(leads,axis=1)
+max_total=np.max(source_wise_total)
+print(np.argmax(max_total))
