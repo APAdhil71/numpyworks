@@ -1,6 +1,6 @@
 import numpy as np
 
-# ✅ 1D Array Practice
+# 1D Array Practice
 
 # 1. Extract the 3rd element
 arr = np.array([3, 6, 9, 12, 15, 18])
@@ -36,7 +36,7 @@ arr = np.array([100, 200, 300, 400, 500])
 print(arr[::-1])
 
 
-# ✅ 2D Array Practice
+# 2D Array Practice
 
 # 9. Extract the first row
 arr = np.array([[1, 2, 3],
